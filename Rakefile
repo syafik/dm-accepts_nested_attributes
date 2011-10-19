@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake'
 
 begin
-  gem 'jeweler', '~> 1.5.2'
+  gem 'jeweler'
   require 'jeweler'
 
   Jeweler::Tasks.new do |gem|
@@ -12,7 +12,6 @@ begin
     gem.email       = 'gamsnjaga [a] gmail [d] com'
     gem.homepage    = 'http://github.com/snusnu/dm-accepts_nested_attributes'
     gem.authors     = [ 'Martin Gamsjaeger (snusnu)' ]
-    gem.has_rdoc    = 'yard'
   end
 
   Jeweler::GemcutterTasks.new
